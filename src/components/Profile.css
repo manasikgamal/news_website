@@ -1,0 +1,47 @@
+.profile_container {
+  width: 60%;
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding-bottom: 50px;
+}
+.profile_icon {
+  width: 200px !important;
+  height: 200px !important;
+}
+.profile_group {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+}
+.edit_icon {
+  position: absolute;
+  bottom: 2px;
+  right: 7px;
+  padding: 7px;
+}
+.edit_icon:hover {
+  cursor: pointer;
+  background-color: rgb(200, 230, 220);
+  border-radius: 50%;
+  color: blue;
+}
+.profile_group > input {
+  width: 100%;
+  padding: 12px 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 40px 0 0 0;
+  background-color: #f8f8f8;
+  outline: none;
+}
+@media (max-width: 600px) {
+  .profile_group {
+    width: 300px;
+  }
+  .profile_container {
+    width: 400px;
+  }
+}

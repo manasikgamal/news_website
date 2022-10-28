@@ -1,0 +1,38 @@
+.header_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+.header_left > img {
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+}
+.header_right {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+.headeroption {
+  text-align: center;
+  align-items: center;
+  color: grey;
+  cursor: pointer;
+  padding: 20px 0;
+  width: 70px;
+}
+.header_choose {
+  color: black;
+  border-bottom: 3px solid black;
+}
+.headeroption_icon {
+  width: 30px;
+  height: 30px;
+}
+.headeroption_title {
+  margin: 0px;
+}
+.headeroption:hover {
+  color: black;
+}

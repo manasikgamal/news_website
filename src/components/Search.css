@@ -1,0 +1,33 @@
+.search_container {
+  margin-top: 40px;
+}
+.search_form {
+  position: relative;
+  width: 70%;
+}
+.search_form > input {
+  padding: 15px 50px !important;
+  width: 100% !important;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: rgb(219, 243, 235);
+  outline: none;
+  font-size: large;
+}
+.search_icon {
+  position: absolute;
+  left: 5px;
+  bottom: 9px;
+  padding: 3px;
+}
+.search_icon:hover {
+  background-color: rgb(187, 240, 222);
+  border-radius: 50%;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .search_form {
+    width: 320px;
+  }
+}

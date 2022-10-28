@@ -1,0 +1,15 @@
+.top_container {
+  margin-inline-end: 20px;
+  margin-top: 20px;
+  width: 320px;
+  height: 350px;
+}
+.top_container > img {
+  width: 320px;
+  height: 200px;
+  cursor: pointer;
+}
+.top_container > h3:hover {
+  cursor: pointer;
+  color: red;
+}
